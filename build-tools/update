@@ -169,8 +169,6 @@ function addCachebuster(_, attr, url, urlQuery) {
 }
 
 // add hashes to js and css files and rewrite URLs
-let indexContents = fs.readFileSync('play.pokemonshowdown.com/index.template.html', {encoding: 'utf8'});
-indexContents = indexContents.replace(URL_REGEX, addCachebuster);
 let preactIndexContents = fs.readFileSync('play.pokemonshowdown.com/preactalpha.template.html', {encoding: 'utf8'});
 preactIndexContents = preactIndexContents.replace(URL_REGEX, addCachebuster);
 let crossprotocolContents = fs.readFileSync('play.pokemonshowdown.com/crossprotocol.template.html', {encoding: 'utf8'});
@@ -194,9 +192,6 @@ try {
 	console.log("git hook failed to retrieve news (parsing JSON failed):\n" + e.stack);
 }
 
-indexContents = indexContents.replace(/<!-- newsid -->/g, newsid);
-indexContents = indexContents.replace(/<!-- news -->/g, news);
-
 let indexContents2 = '';
 try {
 	let indexContentsOld = indexContents;
@@ -205,7 +200,6 @@ try {
 	indexContents2 = indexContents2.replace(/src="\/\/play.pokemonshowdown.com\/config\/config.js\?[a-z0-9]*"/, 'src="//play.pokemonshowdown.com/config/config-test.js?3"');
 } catch (e) {}
 
-fs.writeFileSync('play.pokemonshowdown.com/index.html', indexContents);
 if (indexContents2) {
 	fs.writeFileSync('play.pokemonshowdown.com/index-test.html', indexContents2);
 }
