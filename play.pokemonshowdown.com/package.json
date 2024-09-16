@@ -12,8 +12,9 @@
     "lint": "eslint --config=.eslintrc.js --cache --cache-file=caches/eslint-base.json play.pokemonshowdown.com/js/ && eslint --config=build-tools/.eslintrc.js --cache --cache-file=caches/eslint-build.json build-tools/update build-tools/build-indexes && tslint --project .",
     "test": "npm run lint && tsc && node build && mocha test/*.js",
     "fix": "eslint --config=.eslintrc.js --fix js/ && eslint --config=build-tools/.eslintrc.js --fix build-tools/update build-tools/build-indexes",
-    "build": "node build",
-    "build-full": "node build full"
+    "build": "node build && vite build",
+    "build-full": "node build full",
+    "dev": "vite"
   },
   "dependencies": {
     "@babel/core": "^7.21.3",
@@ -33,7 +34,8 @@
     "preact": "^8.3.1",
     "source-map": "^0.7.3",
     "tslint": "^5.20.1",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vite": "^5.0.8"
   },
   "private": true
 }
