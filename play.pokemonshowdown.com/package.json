@@ -13,7 +13,7 @@
     "test": "npm run lint && tsc && node build && mocha test/*.js",
     "fix": "eslint --config=.eslintrc.js --fix js/ && eslint --config=build-tools/.eslintrc.js --fix build-tools/update build-tools/build-indexes",
     "build": "vite build",
-    "app": "vite --host 0.0.0.0 --port 8080 --omit=dev"
+    "app": "vite --host 0.0.0.0 --port 8080"
   },
   "dependencies": {
     "@babel/core": "^7.21.3",
