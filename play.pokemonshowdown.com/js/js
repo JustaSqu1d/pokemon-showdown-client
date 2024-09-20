@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /js</title>
+ </head>
+ <body>
+<h1>Index of /js</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-animations-moves.js">battle-animations-moves.js</a></td><td align="right">2024-08-10 07:02  </td><td align="right">548K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-animations-moves.js.map">battle-animations-moves.js.map</a></td><td align="right">2024-08-10 07:02  </td><td align="right">1.9M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-animations.js">battle-animations.js</a></td><td align="right">2024-09-08 21:47  </td><td align="right">119K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-animations.js.map">battle-animations.js.map</a></td><td align="right">2024-09-08 21:47  </td><td align="right">383K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-choices.js">battle-choices.js</a></td><td align="right">2024-03-25 03:17  </td><td align="right"> 10K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-choices.js.map">battle-choices.js.map</a></td><td align="right">2024-03-25 03:17  </td><td align="right"> 33K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-dex-data.js">battle-dex-data.js</a></td><td align="right">2024-07-16 02:16  </td><td align="right"> 30K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-dex-data.js.map">battle-dex-data.js.map</a></td><td align="right">2024-07-16 02:16  </td><td align="right"> 96K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-dex-search.js">battle-dex-search.js</a></td><td align="right">2024-08-01 07:32  </td><td align="right"> 59K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-dex-search.js.map">battle-dex-search.js.map</a></td><td align="right">2024-08-01 07:32  </td><td align="right">160K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-dex.js">battle-dex.js</a></td><td align="right">2024-06-20 23:09  </td><td align="right"> 32K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-dex.js.map">battle-dex.js.map</a></td><td align="right">2024-06-20 23:09  </td><td align="right"> 96K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-log.js">battle-log.js</a></td><td align="right">2024-07-16 02:16  </td><td align="right"> 36K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-log.js.map">battle-log.js.map</a></td><td align="right">2024-07-16 02:16  </td><td align="right"> 97K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-scene-stub.js">battle-scene-stub.js</a></td><td align="right">2024-09-08 21:47  </td><td align="right">3.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-scene-stub.js.map">battle-scene-stub.js.map</a></td><td align="right">2024-09-08 21:47  </td><td align="right">9.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-searchresults.js">battle-searchresults.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 15K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-searchresults.js.map">battle-searchresults.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 36K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-sound.js">battle-sound.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">4.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-sound.js.map">battle-sound.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 12K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-text-parser.js">battle-text-parser.js</a></td><td align="right">2024-08-29 00:32  </td><td align="right"> 40K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-text-parser.js.map">battle-text-parser.js.map</a></td><td align="right">2024-08-29 00:32  </td><td align="right">108K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-tooltips.js">battle-tooltips.js</a></td><td align="right">2024-07-26 19:41  </td><td align="right"> 96K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle-tooltips.js.map">battle-tooltips.js.map</a></td><td align="right">2024-07-26 19:41  </td><td align="right">267K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle.js">battle.js</a></td><td align="right">2024-09-08 21:47  </td><td align="right"> 97K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battle.js.map">battle.js.map</a></td><td align="right">2024-09-08 21:47  </td><td align="right">283K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battledata.js">battledata.js</a></td><td align="right">2024-09-17 18:30  </td><td align="right">477K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="battledata.js.map">battledata.js.map</a></td><td align="right">2024-09-17 18:30  </td><td align="right">798K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="clean-cookies.php">clean-cookies.php</a></td><td align="right">2023-11-16 12:28  </td><td align="right">652 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-battle.js">client-battle.js</a></td><td align="right">2024-07-20 05:53  </td><td align="right"> 70K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-chat-tournament.js">client-chat-tournament.js</a></td><td align="right">2023-11-16 12:28  </td><td align="right"> 35K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-chat.js">client-chat.js</a></td><td align="right">2024-09-03 04:50  </td><td align="right"> 74K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-connection.js">client-connection.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">5.8K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-connection.js.map">client-connection.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 11K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-core.js">client-core.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 10K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-core.js.map">client-core.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 27K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-ladder.js">client-ladder.js</a></td><td align="right">2024-07-20 18:42  </td><td align="right">7.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-main.js">client-main.js</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 25K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-main.js.map">client-main.js.map</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 75K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-mainmenu.js">client-mainmenu.js</a></td><td align="right">2024-08-19 15:25  </td><td align="right"> 66K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-rooms.js">client-rooms.js</a></td><td align="right">2024-07-01 16:50  </td><td align="right"> 13K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-teambuilder.js">client-teambuilder.js</a></td><td align="right">2024-09-03 18:02  </td><td align="right">144K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client-topbar.js">client-topbar.js</a></td><td align="right">2024-07-31 23:13  </td><td align="right"> 52K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="client.js">client.js</a></td><td align="right">2024-08-19 15:25  </td><td align="right">105K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="lib/">lib/</a></td><td align="right">2023-12-02 20:28  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="miniedit.js">miniedit.js</a></td><td align="right">2024-09-01 07:06  </td><td align="right">4.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="miniedit.js.map">miniedit.js.map</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-battle.js">panel-battle.js</a></td><td align="right">2024-03-25 03:17  </td><td align="right"> 24K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-battle.js.map">panel-battle.js.map</a></td><td align="right">2024-03-25 03:17  </td><td align="right"> 61K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-chat.js">panel-chat.js</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 18K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-chat.js.map">panel-chat.js.map</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 49K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-example.js">panel-example.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">1.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-example.js.map">panel-example.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right">2.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-ladder.js">panel-ladder.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">6.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-ladder.js.map">panel-ladder.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 17K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-mainmenu.js">panel-mainmenu.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 17K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-mainmenu.js.map">panel-mainmenu.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 43K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-page.js">panel-page.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">3.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-page.js.map">panel-page.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right">8.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-rooms.js">panel-rooms.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">6.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-rooms.js.map">panel-rooms.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-teambuilder-team.js">panel-teambuilder-team.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">7.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-teambuilder-team.js.map">panel-teambuilder-team.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 19K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-teambuilder.js">panel-teambuilder.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right">7.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-teambuilder.js.map">panel-teambuilder.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 20K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-teamdropdown.js">panel-teamdropdown.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 20K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-teamdropdown.js.map">panel-teamdropdown.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 62K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-topbar.js">panel-topbar.js</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 15K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panel-topbar.js.map">panel-topbar.js.map</a></td><td align="right">2023-11-16 18:35  </td><td align="right"> 40K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panels.js">panels.js</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 13K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="panels.js.map">panels.js.map</a></td><td align="right">2024-09-01 07:06  </td><td align="right"> 38K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="replay-embed.js">replay-embed.js</a></td><td align="right">2024-09-17 18:30  </td><td align="right">8.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="replay-embed.template.js">replay-embed.template.js</a></td><td align="right">2023-11-16 12:28  </td><td align="right">8.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="search.js">search.js</a></td><td align="right">2024-01-12 05:44  </td><td align="right"> 29K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="server/">server/</a></td><td align="right">2023-11-16 00:05  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="storage.js">storage.js</a></td><td align="right">2023-11-16 12:28  </td><td align="right"> 56K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.4.52 (Ubuntu) Server at play.pokemonshowdown.com Port 80</address>
+</body></html>

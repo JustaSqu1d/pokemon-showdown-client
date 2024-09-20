@@ -216,7 +216,7 @@ if(this.miniedit){
 this.miniedit.setValue(value,selection);
 }else{var _this$textbox$setSele,_this$textbox;
 this.textbox.value=value;
-if(selection)(_this$textbox$setSele=(_this$textbox=this.textbox).setSelectionRange)==null||_this$textbox$setSele.call(_this$textbox,selection.start,selection.end);
+if(selection)(_this$textbox$setSele=(_this$textbox=this.textbox).setSelectionRange)==null?void 0:_this$textbox$setSele.call(_this$textbox,selection.start,selection.end);
 }
 };_proto2.
 historyUp=function historyUp(){
@@ -284,7 +284,7 @@ setSelection=function setSelection(start,end){
 if(this.miniedit){
 this.miniedit.setSelection({start:start,end:end});
 }else{var _this$textbox$setSele2,_this$textbox2;
-(_this$textbox$setSele2=(_this$textbox2=this.textbox).setSelectionRange)==null||_this$textbox$setSele2.call(_this$textbox2,start,end);
+(_this$textbox$setSele2=(_this$textbox2=this.textbox).setSelectionRange)==null?void 0:_this$textbox$setSele2.call(_this$textbox2,start,end);
 }
 };_proto2.
 toggleFormatChar=function toggleFormatChar(formatChar){

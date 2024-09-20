@@ -169,7 +169,7 @@ return name;
 
 
 
-var Dex=new(function(){function _class2(){var _this=this;this.
+var Dex=new(function(){function _class3(){var _this=this;this.
 gen=9;this.
 modid='gen9';this.
 cache=null;this.
@@ -179,14 +179,14 @@ statNamesExceptHP=['atk','def','spa','spd','spe'];this.
 
 pokeballs=null;this.
 
-resourcePrefix=function(_window$document){
+resourcePrefix=function(){var _window$document,_window$document$loca;
 var prefix='';
-if(((_window$document=window.document)==null||(_window$document=_window$document.location)==null?void 0:_window$document.protocol)!=='http:')prefix='https:';
+if(((_window$document=window.document)==null?void 0:(_window$document$loca=_window$document.location)==null?void 0:_window$document$loca.protocol)!=='http:')prefix='https:';
 return prefix+"//"+(window.Config?Config.routes.client:'play.pokemonshowdown.com')+"/";
 }();this.
 
-fxPrefix=function(_window$document2){
-var protocol=((_window$document2=window.document)==null||(_window$document2=_window$document2.location)==null?void 0:_window$document2.protocol)!=='http:'?'https:':'';
+fxPrefix=function(){var _window$document2,_window$document2$loc;
+var protocol=((_window$document2=window.document)==null?void 0:(_window$document2$loc=_window$document2.location)==null?void 0:_window$document2$loc.protocol)!=='http:'?'https:':'';
 return protocol+"//"+(window.Config?Config.routes.client:'play.pokemonshowdown.com')+"/fx/";
 }();this.
 
@@ -451,7 +451,7 @@ var id=toID(name);
 if(name!==id.substr(0,1).toUpperCase()+id.substr(1))return false;
 return(window.BattleTypeChart||{}).hasOwnProperty(id);
 }
-};}var _proto2=_class2.prototype;_proto2.mod=function mod(modid){if(modid==='gen9')return this;if(!window.BattleTeambuilderTable)return this;if(modid in this.moddedDexes){return this.moddedDexes[modid];}this.moddedDexes[modid]=new ModdedDex(modid);return this.moddedDexes[modid];};_proto2.forGen=function forGen(gen){if(!gen)return this;return this.mod("gen"+gen);};_proto2.resolveAvatar=function resolveAvatar(avatar){var _window$Config;if(window.BattleAvatarNumbers&&avatar in BattleAvatarNumbers){avatar=BattleAvatarNumbers[avatar];}if(avatar.charAt(0)==='#'){return Dex.resourcePrefix+'sprites/trainers-custom/'+toID(avatar.substr(1))+'.png';}if(avatar.includes('.')&&(_window$Config=window.Config)!=null&&(_window$Config=_window$Config.server)!=null&&_window$Config.registered){var protocol=Config.server.port===443?'https':'http';return protocol+'://'+Config.server.host+':'+Config.server.port+'/avatars/'+encodeURIComponent(avatar).replace(/\%3F/g,'?');}return Dex.resourcePrefix+'sprites/trainers/'+Dex.sanitizeName(avatar||'unknown')+'.png';};_proto2.sanitizeName=function sanitizeName(name){if(!name)return'';return(''+name).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').slice(0,50);};_proto2.prefs=function prefs(prop){var _window$Storage;return(_window$Storage=window.Storage)==null||_window$Storage.prefs==null?void 0:_window$Storage.prefs(prop);};_proto2.getShortName=function getShortName(name){var shortName=name.replace(/[^A-Za-z0-9]+$/,'');if(shortName.indexOf('(')>=0){shortName+=name.slice(shortName.length).replace(/[^\(\)]+/g,'').replace(/\(\)/g,'');}return shortName;};_proto2.getEffect=function getEffect(name){name=(name||'').trim();if(name.substr(0,5)==='item:'){return Dex.items.get(name.substr(5).trim());}else if(name.substr(0,8)==='ability:'){return Dex.abilities.get(name.substr(8).trim());}else if(name.substr(0,5)==='move:'){return Dex.moves.get(name.substr(5).trim());}var id=toID(name);return new PureEffect(id,name);};_proto2.getGen3Category=function getGen3Category(type){return['Fire','Water','Grass','Electric','Ice','Psychic','Dark','Dragon'].includes(type)?'Special':'Physical';};_proto2.
+};}var _proto2=_class3.prototype;_proto2.mod=function mod(modid){if(modid==='gen9')return this;if(!window.BattleTeambuilderTable)return this;if(modid in this.moddedDexes){return this.moddedDexes[modid];}this.moddedDexes[modid]=new ModdedDex(modid);return this.moddedDexes[modid];};_proto2.forGen=function forGen(gen){if(!gen)return this;return this.mod("gen"+gen);};_proto2.resolveAvatar=function resolveAvatar(avatar){var _window$Config,_window$Config$server;if(window.BattleAvatarNumbers&&avatar in BattleAvatarNumbers){avatar=BattleAvatarNumbers[avatar];}if(avatar.charAt(0)==='#'){return Dex.resourcePrefix+'sprites/trainers-custom/'+toID(avatar.substr(1))+'.png';}if(avatar.includes('.')&&(_window$Config=window.Config)!=null&&(_window$Config$server=_window$Config.server)!=null&&_window$Config$server.registered){var protocol=Config.server.port===443?'https':'http';return protocol+'://'+Config.server.host+':'+Config.server.port+'/avatars/'+encodeURIComponent(avatar).replace(/\%3F/g,'?');}return Dex.resourcePrefix+'sprites/trainers/'+Dex.sanitizeName(avatar||'unknown')+'.png';};_proto2.sanitizeName=function sanitizeName(name){if(!name)return'';return(''+name).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').slice(0,50);};_proto2.prefs=function prefs(prop){var _window$Storage;return(_window$Storage=window.Storage)==null?void 0:_window$Storage.prefs==null?void 0:_window$Storage.prefs(prop);};_proto2.getShortName=function getShortName(name){var shortName=name.replace(/[^A-Za-z0-9]+$/,'');if(shortName.indexOf('(')>=0){shortName+=name.slice(shortName.length).replace(/[^\(\)]+/g,'').replace(/\(\)/g,'');}return shortName;};_proto2.getEffect=function getEffect(name){name=(name||'').trim();if(name.substr(0,5)==='item:'){return Dex.items.get(name.substr(5).trim());}else if(name.substr(0,8)==='ability:'){return Dex.abilities.get(name.substr(8).trim());}else if(name.substr(0,5)==='move:'){return Dex.moves.get(name.substr(5).trim());}var id=toID(name);return new PureEffect(id,name);};_proto2.getGen3Category=function getGen3Category(type){return['Fire','Water','Grass','Electric','Ice','Psychic','Dark','Dragon'].includes(type)?'Special':'Physical';};_proto2.
 
 hasAbility=function hasAbility(species,ability){
 for(var i in species.abilities){
@@ -481,7 +481,7 @@ getSpriteData=function getSpriteData(pokemon,isFront)
 
 
 
-{var _window$Config2;var options=arguments.length>2&&arguments[2]!==undefined?arguments[2]:{gen:6};
+{var _window$Config2,_window$Config2$serve;var options=arguments.length>2&&arguments[2]!==undefined?arguments[2]:{gen:6};
 var mechanicsGen=options.gen||6;
 var isDynamax=!!options.dynamax;
 if(pokemon instanceof Pokemon){
@@ -602,7 +602,7 @@ spriteData.cryurl+='.mp3';
 if(options.shiny&&mechanicsGen>1)dir+='-shiny';
 
 
-if(Dex.prefs('afd')!==false&&((_window$Config2=window.Config)!=null&&(_window$Config2=_window$Config2.server)!=null&&_window$Config2.afd||Dex.prefs('afd')||options.afd)){
+if(Dex.prefs('afd')!==false&&((_window$Config2=window.Config)!=null&&(_window$Config2$serve=_window$Config2.server)!=null&&_window$Config2$serve.afd||Dex.prefs('afd')||options.afd)){
 
 dir='afd'+dir;
 spriteData.url+=dir+'/'+name+'.png';
@@ -678,17 +678,17 @@ spriteData.y+=-11;
 return spriteData;
 };_proto2.
 
-getPokemonIconNum=function getPokemonIconNum(id,isFemale,facingLeft){var _window$BattlePokemon,_window$BattlePokedex,_window$BattlePokemon2;
+getPokemonIconNum=function getPokemonIconNum(id,isFemale,facingLeft){var _window$BattlePokemon,_window$BattlePokemon2,_window$BattlePokedex,_window$BattlePokedex2,_window$BattlePokemon3;
 var num=0;
-if((_window$BattlePokemon=window.BattlePokemonSprites)!=null&&(_window$BattlePokemon=_window$BattlePokemon[id])!=null&&_window$BattlePokemon.num){
+if((_window$BattlePokemon=window.BattlePokemonSprites)!=null&&(_window$BattlePokemon2=_window$BattlePokemon[id])!=null&&_window$BattlePokemon2.num){
 num=BattlePokemonSprites[id].num;
-}else if((_window$BattlePokedex=window.BattlePokedex)!=null&&(_window$BattlePokedex=_window$BattlePokedex[id])!=null&&_window$BattlePokedex.num){
+}else if((_window$BattlePokedex=window.BattlePokedex)!=null&&(_window$BattlePokedex2=_window$BattlePokedex[id])!=null&&_window$BattlePokedex2.num){
 num=BattlePokedex[id].num;
 }
 if(num<0)num=0;
 if(num>1025)num=0;
 
-if((_window$BattlePokemon2=window.BattlePokemonIconIndexes)!=null&&_window$BattlePokemon2[id]){
+if((_window$BattlePokemon3=window.BattlePokemonIconIndexes)!=null&&_window$BattlePokemon3[id]){
 num=BattlePokemonIconIndexes[id];
 }
 
@@ -705,7 +705,7 @@ num=BattlePokemonIconIndexesLeft[id];
 return num;
 };_proto2.
 
-getPokemonIcon=function getPokemonIcon(pokemon,facingLeft){var _pokemon,_pokemon2,_pokemon3,_pokemon4,_pokemon5;
+getPokemonIcon=function getPokemonIcon(pokemon,facingLeft){var _pokemon,_pokemon2,_pokemon3,_pokemon3$volatiles,_pokemon4,_pokemon5;
 if(pokemon==='pokeball'){
 return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-pokeball-sheet.png) no-repeat scroll -0px 4px";
 }else if(pokemon==='pokeball-statused'){
@@ -723,7 +723,7 @@ if((_pokemon=pokemon)!=null&&_pokemon.speciesForme)id=toID(pokemon.speciesForme)
 
 if((_pokemon2=pokemon)!=null&&_pokemon2.species)id=toID(pokemon.species);
 
-if((_pokemon3=pokemon)!=null&&(_pokemon3=_pokemon3.volatiles)!=null&&_pokemon3.formechange&&!pokemon.volatiles.transform){
+if((_pokemon3=pokemon)!=null&&(_pokemon3$volatiles=_pokemon3.volatiles)!=null&&_pokemon3$volatiles.formechange&&!pokemon.volatiles.transform){
 
 id=toID(pokemon.volatiles.formechange[1]);
 }
@@ -735,7 +735,7 @@ var fainted=(_pokemon5=pokemon)!=null&&_pokemon5.fainted?";opacity:.3;filter:gra
 return"background:transparent url("+Dex.resourcePrefix+"sprites/pokemonicons-sheet.png?v16) no-repeat scroll -"+left+"px -"+top+"px"+fainted;
 };_proto2.
 
-getTeambuilderSpriteData=function getTeambuilderSpriteData(pokemon){var _window$Config3;var gen=arguments.length>1&&arguments[1]!==undefined?arguments[1]:0;
+getTeambuilderSpriteData=function getTeambuilderSpriteData(pokemon){var _window$Config3,_window$Config3$serve;var gen=arguments.length>1&&arguments[1]!==undefined?arguments[1]:0;
 var id=toID(pokemon.species);
 var spriteid=pokemon.spriteid;
 var species=Dex.species.get(pokemon.species);
@@ -743,7 +743,7 @@ if(pokemon.species&&!spriteid){
 spriteid=species.spriteid||toID(pokemon.species);
 }
 if(species.exists===false)return{spriteDir:'sprites/gen5',spriteid:'0',x:10,y:5};
-if((_window$Config3=window.Config)!=null&&(_window$Config3=_window$Config3.server)!=null&&_window$Config3.afd||Dex.prefs('afd')){
+if((_window$Config3=window.Config)!=null&&(_window$Config3$serve=_window$Config3.server)!=null&&_window$Config3$serve.afd||Dex.prefs('afd')){
 return{
 spriteid:spriteid,
 spriteDir:'sprites/afd',
@@ -834,13 +834,13 @@ return"<img src=\""+Dex.resourcePrefix+"sprites/categories/"+sanitizedCategory+"
 getPokeballs=function getPokeballs(){
 if(this.pokeballs)return this.pokeballs;
 this.pokeballs=[];
-if(!window.BattleItems)window.BattleItems={};for(var _i6=0,_Object$values2=
-Object.values(window.BattleItems);_i6<_Object$values2.length;_i6++){var data=_Object$values2[_i6];
+if(!window.BattleItems)window.BattleItems={};for(var _i6=0,_ref3=
+Object.values(window.BattleItems);_i6<_ref3.length;_i6++){var data=_ref3[_i6];
 if(!data.isPokeball)continue;
 this.pokeballs.push(data.name);
 }
 return this.pokeballs;
-};return _class2;}())(
+};return _class3;}())(
 );var
 
 ModdedDex=function(){
@@ -1025,8 +1025,8 @@ return data;
 getPokeballs=function getPokeballs(){
 if(this.pokeballs)return this.pokeballs;
 this.pokeballs=[];
-if(!window.BattleItems)window.BattleItems={};for(var _i8=0,_Object$values4=
-Object.values(window.BattleItems);_i8<_Object$values4.length;_i8++){var data=_Object$values4[_i8];
+if(!window.BattleItems)window.BattleItems={};for(var _i8=0,_ref5=
+Object.values(window.BattleItems);_i8<_ref5.length;_i8++){var data=_ref5[_i8];
 if(data.gen&&data.gen>this.gen)continue;
 if(!data.isPokeball)continue;
 this.pokeballs.push(data.name);
@@ -1035,7 +1035,7 @@ return this.pokeballs;
 };return ModdedDex;}();
 
 
-var Teams=new(function(){function _class3(){}var _proto4=_class3.prototype;_proto4.
+var Teams=new(function(){function _class4(){}var _proto4=_class4.prototype;_proto4.
 unpack=function unpack(buf){
 if(!buf)return[];
 
@@ -1283,7 +1283,7 @@ text+='- '+_move+"  \n";
 text+="\n";
 }
 return text;
-};return _class3;}())(
+};return _class4;}())(
 );
 
 if(typeof require==='function'){

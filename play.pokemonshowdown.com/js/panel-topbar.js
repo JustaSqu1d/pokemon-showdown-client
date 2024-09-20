@@ -158,8 +158,8 @@ formatid=idChunks[0];
 }
 if(!title){var _battle$p,_battle$p2;
 var battle=room.battle;
-var p1=(battle==null||(_battle$p=battle.p1)==null?void 0:_battle$p.name)||'';
-var p2=(battle==null||(_battle$p2=battle.p2)==null?void 0:_battle$p2.name)||'';
+var p1=(battle==null?void 0:(_battle$p=battle.p1)==null?void 0:_battle$p.name)||'';
+var p2=(battle==null?void 0:(_battle$p2=battle.p2)==null?void 0:_battle$p2.name)||'';
 if(p1&&p2){
 title=p1+" v. "+p2;
 }else if(p1||p2){

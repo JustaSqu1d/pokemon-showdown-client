@@ -76,7 +76,7 @@ if(selection===undefined)selection=this.getSelection();
 this._setContent(text);
 
 this.setSelection(selection);
-(_this$pushHistory=this.pushHistory)==null||_this$pushHistory.call(this,text,selection);
+(_this$pushHistory=this.pushHistory)==null?void 0:_this$pushHistory.call(this,text,selection);
 };_proto.
 getValue=function getValue(){
 var text=this.element.textContent||'';

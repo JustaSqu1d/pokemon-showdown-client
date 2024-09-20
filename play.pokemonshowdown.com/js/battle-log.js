@@ -92,13 +92,13 @@ var el=document.createElement('div');
 el.className='chat';
 el.innerHTML='<button class="button earlier-button"><i class="fa fa-caret-up"></i><br />Earlier messages</button>';
 var button=el.getElementsByTagName('button')[0];
-button==null||button.addEventListener==null||button.addEventListener('click',function(e){var _this2$scene;
+button==null?void 0:button.addEventListener==null?void 0:button.addEventListener('click',function(e){var _this2$scene;
 e.preventDefault();
-(_this2$scene=_this2.scene)==null||_this2$scene.battle.seekTurn(_this2.scene.battle.turn-100);
+(_this2$scene=_this2.scene)==null?void 0:_this2$scene.battle.seekTurn(_this2.scene.battle.turn-100);
 });
 this.addNode(el);
 };_proto.
-add=function add(args,kwArgs,preempt){var _this$scene,_window$app,_window$app2,_this$scene2;
+add=function add(args,kwArgs,preempt){var _this$scene,_window$app,_window$app$ignore,_window$app2,_window$app2$rooms,_this$scene2;
 if(kwArgs!=null&&kwArgs.silent)return;
 var battle=(_this$scene=this.scene)==null?void 0:_this$scene.battle;
 if(battle!=null&&battle.seeking){
@@ -137,8 +137,8 @@ if(battle!=null&&battle.ignoreSpects&&' +'.includes(rank))return;
 if(battle!=null&&battle.ignoreOpponent){
 if("\u2605\u2606".includes(rank)&&toUserid(name)!==app.user.get('userid'))return;
 }
-if((_window$app=window.app)!=null&&(_window$app=_window$app.ignore)!=null&&_window$app[toUserid(name)]&&" +\u2605\u2606".includes(rank))return;
-var isHighlighted=(_window$app2=window.app)==null||(_window$app2=_window$app2.rooms)==null?void 0:_window$app2[battle.roomid].getHighlight(message);var _this$parseChatMessag=
+if((_window$app=window.app)!=null&&(_window$app$ignore=_window$app.ignore)!=null&&_window$app$ignore[toUserid(name)]&&" +\u2605\u2606".includes(rank))return;
+var isHighlighted=(_window$app2=window.app)==null?void 0:(_window$app2$rooms=_window$app2.rooms)==null?void 0:_window$app2$rooms[battle.roomid].getHighlight(message);var _this$parseChatMessag=
 this.parseChatMessage(message,name,'',isHighlighted);divClass=_this$parseChatMessag[0];divHTML=_this$parseChatMessag[1];noNotify=_this$parseChatMessag[2];
 if(!noNotify&&isHighlighted){
 var notifyTitle="Mentioned by "+name+" in "+battle.roomid;
@@ -423,14 +423,14 @@ this.addDiv('spacer battle-history','<br />');
 changeUhtml=function changeUhtml(id,htmlSrc,forceAdd){
 id=toID(id);
 var classContains=' uhtml-'+id+' ';
-var elements=[];for(var _i4=0,_this$innerElem$child2=
-this.innerElem.childNodes;_i4<_this$innerElem$child2.length;_i4++){var node=_this$innerElem$child2[_i4];
+var elements=[];for(var _i4=0,_ref2=
+this.innerElem.childNodes;_i4<_ref2.length;_i4++){var node=_ref2[_i4];
 if(node.className&&(' '+node.className+' ').includes(classContains)){
 elements.push(node);
 }
 }
-if(this.preemptElem){for(var _i6=0,_this$preemptElem$chi2=
-this.preemptElem.childNodes;_i6<_this$preemptElem$chi2.length;_i6++){var _node=_this$preemptElem$chi2[_i6];
+if(this.preemptElem){for(var _i6=0,_ref4=
+this.preemptElem.childNodes;_i6<_ref4.length;_i6++){var _node=_ref4[_i6];
 if(_node.className&&(' '+_node.className+' ').includes(classContains)){
 elements.push(_node);
 }
@@ -455,14 +455,14 @@ this.prependDiv('notice uhtml-'+id,BattleLog.sanitizeHTML(htmlSrc));
 };_proto.
 hideChatFrom=function hideChatFrom(userid){var showRevealButton=arguments.length>1&&arguments[1]!==undefined?arguments[1]:true;var lineCount=arguments.length>2&&arguments[2]!==undefined?arguments[2]:0;
 var classStart='chat chatmessage-'+userid+' ';
-var nodes=[];for(var _i12=0,_this$innerElem$child4=
-this.innerElem.childNodes;_i12<_this$innerElem$child4.length;_i12++){var node=_this$innerElem$child4[_i12];
+var nodes=[];for(var _i12=0,_ref6=
+this.innerElem.childNodes;_i12<_ref6.length;_i12++){var node=_ref6[_i12];
 if(node.className&&(node.className+' ').startsWith(classStart)){
 nodes.push(node);
 }
 }
-if(this.preemptElem){for(var _i14=0,_this$preemptElem$chi4=
-this.preemptElem.childNodes;_i14<_this$preemptElem$chi4.length;_i14++){var _node2=_this$preemptElem$chi4[_i14];
+if(this.preemptElem){for(var _i14=0,_ref8=
+this.preemptElem.childNodes;_i14<_ref8.length;_i14++){var _node2=_ref8[_i14];
 if(_node2.className&&(_node2.className+' ').startsWith(classStart)){
 nodes.push(_node2);
 }
@@ -485,16 +485,16 @@ lastNode.appendChild(document.createTextNode(' '));
 lastNode.appendChild(button);
 };BattleLog.
 
-unlinkNodeList=function unlinkNodeList(nodeList,classStart){for(var _i18=0;_i18<
-nodeList.length;_i18++){var node=nodeList[_i18];
+unlinkNodeList=function unlinkNodeList(nodeList,classStart){for(var _i18=0,_ref10=
+nodeList;_i18<_ref10.length;_i18++){var node=_ref10[_i18];
 if(node.className&&(node.className+' ').startsWith(classStart)){
 var linkList=node.getElementsByTagName('a');
 
 for(var i=linkList.length-1;i>=0;i--){
 var linkNode=linkList[i];
 var parent=linkNode.parentElement;
-if(!parent)continue;for(var _i20=0,_linkNode$childNodes2=
-linkNode.childNodes;_i20<_linkNode$childNodes2.length;_i20++){var childNode=_linkNode$childNodes2[_i20];
+if(!parent)continue;for(var _i20=0,_ref12=
+linkNode.childNodes;_i20<_ref12.length;_i20++){var childNode=_ref12[_i20];
 parent.insertBefore(childNode,linkNode);
 }
 parent.removeChild(linkNode);
@@ -621,7 +621,7 @@ return undefined;
 
 parseChatMessage=function parseChatMessage(
 message,name,timestamp,isHighlighted)
-{var _BattleLog$prefs,_window$app3,_window$PS;
+{var _BattleLog$prefs,_window$app3,_window$app3$user,_window$PS;
 var showMe=!((_BattleLog$prefs=BattleLog.prefs('chatformatting'))!=null&&_BattleLog$prefs.hideme);
 var group=' ';
 if(!/[A-Za-z0-9]/.test(name.charAt(0))){
@@ -632,7 +632,7 @@ name=name.substr(1);
 var colorStyle=" style=\"color:"+BattleLog.usernameColor(toID(name))+"\"";
 var clickableName="<small>"+BattleLog.escapeHTML(group)+"</small><span class=\"username\" data-name=\""+BattleLog.escapeHTML(name)+"\">"+BattleLog.escapeHTML(name)+"</span>";
 var hlClass=isHighlighted?' highlighted':'';
-var isMine=((_window$app3=window.app)==null||(_window$app3=_window$app3.user)==null?void 0:_window$app3.get('name'))===name||((_window$PS=window.PS)==null?void 0:_window$PS.user.name)===name;
+var isMine=((_window$app3=window.app)==null?void 0:(_window$app3$user=_window$app3.user)==null?void 0:_window$app3$user.get('name'))===name||((_window$PS=window.PS)==null?void 0:_window$PS.user.name)===name;
 var mineClass=isMine?' mine':'';
 
 var cmd='';
@@ -1086,7 +1086,7 @@ onStateChange:function(event){
 if(event.data===window.YT.PlayerState.PLAYING){for(var _i22=0,_BattleLog$players2=
 BattleLog.players;_i22<_BattleLog$players2.length;_i22++){var curPlayer=_BattleLog$players2[_i22];
 if(player===curPlayer)continue;
-curPlayer==null||curPlayer.pauseVideo==null||curPlayer.pauseVideo();
+curPlayer==null?void 0:curPlayer.pauseVideo==null?void 0:curPlayer.pauseVideo();
 }
 }
 }
